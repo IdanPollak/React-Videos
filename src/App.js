@@ -6,7 +6,7 @@ import SearchBar from "./components/SearchBar";
 import WeatherAPI from "./apis/WeatherAPI";
 
 import SimpleMap from "./components/Map/Map";
-const KEY = "092b9a34bffd402cb43194012201504";
+const KEY = "Your API KEY";
 
 const App = () => {
   const [arrDay, setArrDay] = useState([]);
