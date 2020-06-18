@@ -9,7 +9,7 @@ const WeatherCard = (props) => {
         <div>{props.day}</div>
       </DayWrapper>
       <StatusWrapper>
-        <img widht={50} height={50} src={props.status} alt='test'/>
+        <img width={50} height={50} src={props.status} alt='test'/>
       </StatusWrapper>
       <TempWrapper>
         <div>{props.temprature.day}°</div>

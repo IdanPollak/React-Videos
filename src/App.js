@@ -73,7 +73,7 @@ const App = () => {
 
           <WeatherContainer
             style={{
-              width: "50%",
+              width: "30%",
               display: "flex",
               justifyContent: "center",
               margin: "auto",
@@ -92,7 +92,7 @@ const App = () => {
             })}
           </WeatherContainer>
           <div className="H1">
-            <h1>Click on The map to get 7 days forecast</h1>
+            <h1>Click on The map to get 3 days forecast</h1>
           </div>
             <SimpleMap onClick={onMapClick} />
         </div>
