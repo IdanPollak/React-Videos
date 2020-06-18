@@ -27,7 +27,7 @@ const SimpleMap = (props) => {
   
 }
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCvS2p38RSdS78_zVVUSN4KxMcRFs1q5fE",
+  apiKey: "Your API KEY",
 })(SimpleMap);
 
 
